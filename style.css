@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Bungee|Bungee+Inline|Limelight|Monoton|Montserrat+Subrayada|Nova+Square|Playfair+Display+SC|Syncopate|Unica+One);
+ 
+@media (max-width: 768px) {
+  .big-nav {
+   display: none; 
+  }
+  .small-nav {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .cell-brand {
+    line-height: 40px;
+  }
+}
+
+body {
+  padding-top: 40px;
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -90px;
+    left: 0;
+    visibility: hidden;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.big-brand {
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Nova Square', cursive;
+}
+
+.small-nav {
+  font-family: 'Nova Square', cursive;
+}
+
+.navbar-nav>li>a {
+  line-height: 40px;
+}
+
+.nav-items {
+  font-size: 20px;
+  font-family: 'Nova Square', cursive;
+}
+
+.fa-fw {
+  vertical-align: middle;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-brand {
+  font-size: auto;
+}
+
+.jumbo-image {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+.jumbo {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(http://gdurl.com/44cO);
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.inner {
+    font-family: 'Nova Square', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    opacity: 0.75;
+}
+
+#about {
+  text-align: center;
+  font-family: 'Nova Square', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#about-text {
+  font-size: 1.6rem;
+}
+
+#works, #contact {
+  text-align: center;
+  font-family: 'Nova Square', cursive;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.work-items {
+  margin-bottom: 25px;
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+.footer-icons>ul>li>a {
+  color: #777;
+}
+
+.footer-icons>ul>li>a:hover {
+  color: #333;
+}
