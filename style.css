@@ -125,6 +125,11 @@ body {
   margin-bottom: 25px;
 }
 
+.contact-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .footer-icons {
   text-align: center;
 }
@@ -135,4 +140,4 @@ body {
 
 .footer-icons>ul>li>a:hover {
   color: #333;
-}
+}git 
