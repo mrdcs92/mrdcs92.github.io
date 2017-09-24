@@ -7,6 +7,9 @@
   .small-nav {
     display: block;
   }
+  .cell-brand {
+    line-height: 23px;
+  }
 }
 
 @media (min-width: 768px) {
