@@ -1,25 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Bungee|Bungee+Inline|Limelight|Monoton|Montserrat+Subrayada|Nova+Square|Playfair+Display+SC|Syncopate|Unica+One);
- 
+
 @media (max-width: 768px) {
-  .big-nav {
-   display: none; 
-  }
-  .small-nav {
-    display: block;
-  }
-  .cell-brand {
-    line-height: 23px;
-  }
+    .big-nav {
+        display: none;
+    }
+
+    .small-nav {
+        display: block;
+    }
+
+    .cell-brand {
+        line-height: 23px;
+    }
 }
 
 @media (min-width: 768px) {
-  .cell-brand {
-    line-height: 40px;
-  }
+    .cell-brand {
+        line-height: 40px;
+    }
 }
 
 body {
-  padding-top: 40px;
+    padding-top: 40px;
 }
 
 .anchor {
@@ -34,39 +36,39 @@ body {
 }
 
 .navbar {
-  border-radius: 0px;
-  margin-bottom: 0px;
+    border-radius: 0px;
+    margin-bottom: 0px;
 }
 
 .big-brand {
-  line-height: 40px;
-  font-size: 20px;
-  font-family: 'Nova Square', cursive;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: 'Nova Square', cursive;
 }
 
 .small-nav {
-  font-family: 'Nova Square', cursive;
+    font-family: 'Nova Square', cursive;
 }
 
-.navbar-nav>li>a {
-  line-height: 40px;
+.navbar-nav > li > a {
+    line-height: 40px;
 }
 
 .nav-items {
-  font-size: 20px;
-  font-family: 'Nova Square', cursive;
+    font-size: 20px;
+    font-family: 'Nova Square', cursive;
 }
 
 .fa-fw {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .navbar-brand img {
-  height: 100%;
+    height: 100%;
 }
 
 .navbar-brand {
-  font-size: auto;
+    font-size: auto;
 }
 
 .jumbo-image {
@@ -79,19 +81,14 @@ body {
 }
 
 .jumbo {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(https://gdurl.com/44cO);
-  background-size: cover;
-  width: auto;
-  height: 100vh;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(https://gdurl.com/44cO);
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .inner {
@@ -100,52 +97,53 @@ body {
     font-size: 3rem;
     color: white;
     position: relative;
-    top: 50%; left: 50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
     padding: 2rem;
     opacity: 0.75;
 }
 
 #about {
-  text-align: center;
-  font-family: 'Nova Square', cursive;
-  margin-top: 0px;
-  margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Nova Square', cursive;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .about-text {
-  font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
 #works, #contact {
-  text-align: center;
-  font-family: 'Nova Square', cursive;
-  margin-top: 0px;
-  margin-bottom: 24px;
+    text-align: center;
+    font-family: 'Nova Square', cursive;
+    margin-top: 0px;
+    margin-bottom: 24px;
 }
 
 .work-items {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .need-border {
-  border: solid;
-  border-width: thin;
+    border: solid;
+    border-width: thin;
 }
 
 .contact-info {
-  padding-left: 15px;
-  padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer-icons {
-  text-align: center;
+    text-align: center;
 }
 
-.footer-icons>ul>li>a {
-  color: #777;
-}
+    .footer-icons > ul > li > a {
+        color: #777;
+    }
 
-.footer-icons>ul>li>a:hover {
-  color: #333;
-}
+        .footer-icons > ul > li > a:hover {
+            color: #333;
+        }
